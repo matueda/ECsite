@@ -41,7 +41,7 @@
 				<br>
     <table>
     <tr>
-       <td><form action="BuyItemAction2"><input type="submit" value=" やめておく！ " class="sign-up-button"></form></td>
+       <td><form action="HomeAction2"><input type="submit" value=" やめておく！ " class="sign-up-button"></form></td>
        <td><form action="BuyItemConfirmAction2"><input type="submit" value=" 購入するよ！ " class="sign-up-button"></form></td>
         </tr>
             </table>
