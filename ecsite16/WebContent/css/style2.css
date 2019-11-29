@@ -1,0 +1,238 @@
+		/* ========== TAG LAYOUT ========== */
+body{
+			margin:0;
+			padding:0;
+			line-height:1.6;
+			letter-spacing:1px;
+			font-family:Verdana,Helvetca,sans-serif;
+			font-size:12px;
+			color:#333;
+			background:#fff;
+  			animation: fadeIn 2.5s ease 0.5s 1 normal;
+  			-webkit-animation: fadeIn 2.5s ease 0.5s 1 normal;
+}
+table{
+			text-align:center;
+			margin:0 auto;
+}
+		/* ========== ID LAYOUT ========== */
+#top{
+			width:780px;
+			margin:30px auto;
+			border:1px solid #333;
+}
+
+#header{
+			width:100%;
+			height:80px;
+			background-color:lime;
+}
+
+#main{
+			width:100%;
+			height:500px;
+			text-align:center;
+}
+
+#footer{
+			width:100%;
+			height:80px;
+			background-color:lime;
+			clear:both;
+}
+#admin_item{
+			position: relative;
+			float:center;
+			width:15%;
+			border:1px solid black;
+			padding: 15px;
+			display: inline-block;
+			text-align: center;
+}
+#admin_user{
+			position: relative;
+			float:center;
+			width:15%;
+			border:1px solid black;
+			padding: 15px;
+			display: inline-block;
+			text-align: center;
+}
+#titlebox1 {
+			position:absolute;
+			top:-20px;
+			left:7vw;
+			font-size:100%;
+			padding:0.5em;
+			background: #ffffff;
+			}
+#titlebox2 {
+			position:absolute;
+			top:-20px;
+			left:6.5vw;
+			font-size:100%;
+			padding:0.5em;
+			background: #ffffff;
+			}
+#center{
+			display: inline-block;
+			text-align: center;
+}
+#layoutchangebutton{
+			display: inline-block;
+			text-align: right;
+}
+.error {
+	font-size : 0.8em;
+	color: #D8000C;
+
+}
+
+.error-message {
+	color : red;
+}
+.errorlist{
+			float:center;
+			display: inline-block;
+			text-align: center;
+			font-size : 0.8em;
+}
+.inputform{
+			float:center;
+			display: inline-block;
+			text-align: center;
+}
+.pace-running .wrap {
+            display:none;
+        }
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+image#floatButton1 {
+    position: absolute;
+
+}
+.bgi {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+.bgi .Color1 {
+  position: absolute;/*絶対配置*/
+  color: gray;/*文字はグレーに*/
+  font-weight: bold; /*太字に*/
+  font-size: 10em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-80%,-80%);
+  margin:0,0,0,0;
+  padding:0,0,0,0;
+  }
+
+.bgi img {
+  width: 100%;
+  margin:0,0,0x,0;
+  padding:0,0,0,0;
+  }
+
+  .bgi .HomeAction {
+  position: absolute;/*絶対配置*/
+  color: gray;/*文字はグレーに*/
+  font-weight: bold; /*太字に*/
+  font-size: 10em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  top: 30%;
+  left: 90%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-80%,-80%);
+  margin:0,0,0,0;
+  padding:0,0,0,0;
+  }
+
+  .bgi .btn-flat-dashed-border1 {
+    position: absolute;/*絶対配置*/
+  color: gray;/*文字はグレーに*/
+  font-weight: bold; /*太字に*/
+  font-size: 4em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font   color: #67c5ff;*/
+  top: 60%;
+  left: 90%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-80%,-80%);
+  margin:0,0,0,0;
+  padding:0,0,0,0;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: .4s;
+  white-space: nowrap
+}
+
+.bgi .btn-flat-dashed-border1:hover {
+  color: #679efd;
+}
+
+  .bgi .btn-flat-dashed-border2 {
+    position: absolute;/*絶対配置*/
+  color: gray;/*文字はグレーに*/
+  font-weight: bold; /*太字に*/
+  font-size: 4em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font   color: #67c5ff;*/
+  top: 70%;
+  left: 90%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-80%,-80%);
+  margin:0,0,0,0;
+  padding:0,0,0,0;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.bgi .btn-flat-dashed-border2:hover {
+  color: #679efd;
+}
+  .bgi .btn-flat-dashed-border3 {
+    position: absolute;/*絶対配置*/
+  color: gray;/*文字はグレーに*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font   color: #67c5ff;*/
+  top: 99%;
+  left: 95%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-80%,-80%);
+  margin:0,0,0,0;
+  padding:0,0,0,0;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.bgi .btn-flat-dashed-border3:hover {
+  color: #679efd;
+}
+.bgi .Color1 span:nth-child(1) { color: #fd0241; }
+.bgi .Color1 span:nth-child(2) { color: #f97346; }
+.bgi .Color1 span:nth-child(3) { color: #fed801; }
+.bgi .Color1 span:nth-child(4) { color: skyblue; }
+.bgi .Color1 span:nth-child(5) { color: #99fe01; }
+.bgi .Color1 span:nth-child(6) { color: #0080ff; }
+.bgi .Color1 span:nth-child(7) { color: #ed1217; }
+.bgi .Color1 span:nth-child(8) { color: #ffff13; }
+.bgi .Color1 span:nth-child(9) { color: #00ff00; }
